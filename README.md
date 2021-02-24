@@ -43,5 +43,5 @@
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/dbb5660044e243fdf4e4)
 
 ### Link Server 
-    - API User ini telah saya deploy menggunakan heroku. 
-    [Link Server](https://server-crud-user.herokuapp.com/)
+API User ini telah di deploy menggunakan heroku. 
+[!Link Server](https://server-crud-user.herokuapp.com/)
