@@ -35,3 +35,5 @@
 |  8  | Data User Role Admin  | /api/admin              |   token  | get     |        -                                   |
 |  9  | Page for Public       | /api/all                |          | get     |        -                                   |
 
+## POSTMAN
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/dbb5660044e243fdf4e4)
