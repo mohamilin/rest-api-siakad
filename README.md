@@ -12,6 +12,10 @@
     - Jalankan `npm run dev`
     - Catatan : setelah anda menjalan `npm run dev` maka role admin dan user akan langsung terisi dalam database
 
+### Credential Admin
+    - username = admin
+    - password = password
+
 ### Menjalankan Route
 
     - Dalam menjalankan route ini, terlebih dahulu register dan login.
@@ -35,5 +39,9 @@
 |  8  | Data User Role Admin  | /api/admin              |   token  | get     |        -                                   |
 |  9  | Page for Public       | /api/all                |          | get     |        -                                   |
 
-## POSTMAN
+### Menjalankan Route di POSTMAN
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/dbb5660044e243fdf4e4)
+
+### Link Server 
+    - API User ini telah saya deploy menggunakan heroku. 
+    [Link Server](https://server-crud-user.herokuapp.com/)
