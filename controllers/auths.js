@@ -10,6 +10,7 @@ const Role = db.role
 module.exports = {
   register: (req, res) => {
     const user = new User({
+      fullname: req.body.fullname,
       username: req.body.username,
       email: req.body.email,
       password: bcrypt.hashSync(req.body.password, 8),
