@@ -8,5 +8,5 @@ db.mongoose = mongoose;
 db.user = require("./User");
 db.role = require("./Role");
 
-db.ROLES = ["admin", "user"];
+db.ROLES = ["admin", "student", "teacher"];
 module.exports = db;
