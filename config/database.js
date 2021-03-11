@@ -22,13 +22,23 @@ function initial() {
   Role.estimatedDocumentCount((err, count) => {
     if (!err && count === 0) {
       new Role({
-        name: "user",
+        name: "student",
       }).save((err) => {
         if (err) {
           console.log("error", err)
         }
 
         console.log("added 'user' to roles collection")
+      })
+
+      new Role({
+        name: "teacher",
+      }).save((err) => {
+        if (err) {
+          console.log("error", err)
+        }
+
+        console.log("added 'teacher' to roles collection")
       })
 
       new Role({
